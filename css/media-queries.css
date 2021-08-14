@@ -2,7 +2,92 @@
 
 }
 @media only screen and (max-width: 992px) {
+    header{
+        position: static;
+    }
+    .container.d-flex{
+        width: 80%;
+        padding-right: 20px;
+        flex-direction: column;
+    }
+    .container.d-flex img{
+        width: 100%;
+    }
+    header .container.d-flex a.header_logo{
+        margin-bottom: 30px;
 
+    }
+    .container.d-flex.line form{
+        display: none;
+    }
+    .container.d-flex.line a.btn{
+        width: 95%;
+        margin-bottom: 20px;
+    }
+    .nav_container{
+        display: none;
+    }
+    .ft_color{
+        padding:0 20px;
+    }
+    .title_cont{
+        left: 70px;
+    }
+    .title_cont h1{
+        font-size: 33px;
+    }
+    .newsletter form{
+        flex-direction: column;
+        max-width:645px;
+        align-items: center;
+    }
+    .newsletter input{
+        min-width: 170px;
+        padding: 18px 15px;
+        margin-bottom: 20px;
+        width: 100%;
+    }
+    .newsletter form button{
+        min-width: 170px;
+        padding: 18px 15px;
+        width: 100%;
+    }
+    footer{
+        padding: 32px 28px;
+    }
+    .footer_cont{
+        align-items: normal;
+    }
+    .logo_footer img{
+        width: 100%;
+    }
+    .logo_footer{
+        margin-bottom: 25px;
+    }
+    .logoSocials_fter{
+        max-width: 470px;
+        align-items: center;
+    }
+    .social_icons.fter{
+        margin-bottom: 40px;
+    }
+    a.soc_icon.fter{
+        width: 50px;
+        height: 50px;
+        font-size: 35px;
+        color: #252525;
+    }
+    .infoBlocks a:last-of-type{
+        margin-bottom: 20px;
+    }
+    .moreInfo_fter{
+        max-width: 450px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .infoBlocks{
+        padding-bottom: 40px;
+    }
 }
 @media only screen and (max-width: 767px) {
 
@@ -11,7 +96,9 @@
 
 }
 @media only screen and (max-width: 375px) {
-
+    .title_cont{
+        left: 30%;
+    }
 }
 @media only screen and (max-width: 360px) {
 

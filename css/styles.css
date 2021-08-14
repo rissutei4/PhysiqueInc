@@ -402,7 +402,7 @@ section.page_title {
     display: flex;
     justify-content: space-between;
     align-items: baseline;
-    min-width: 645px;
+    max-width: 645px;
 }
 .newsletter input {
     background-color: #ffffff;
